@@ -9,6 +9,7 @@
 .header{
   display: flex;
   justify-content: space-between;
+
 }
 .logo,.menu{
   border:dashed 1px red;
@@ -28,23 +29,39 @@
   padding-right: 0;
 }
 .main-section{
+  display: flex;
+  justify-content: space-between;
 
+  border:dashed 1px red;
 }
 .main-content{
-
+  margin-top: 246px;
+  border:dashed 1px red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main-content_description{
+  margin-top: 0;
+  width: 37%;
 
+  border:dashed 1px red;
 }
 .main-content_title{
-
+    width: 37%;
+    padding: 0 0 20px 0;
+    margin: 0px;
+  border:dashed 1px red;
 }
 .main-content_button{
 
+border:dashed 1px red;
 }
 .image-content {
-
+  padding-right: 0px;
+  border:dashed 1px red;
 }
 .image-content_image{
 
+  border:dashed 1px red;
 }
