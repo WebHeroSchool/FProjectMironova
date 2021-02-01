@@ -1,0 +1,67 @@
+.main-content_title{
+  font-family: Roboto;
+}
+.wrapper{
+  margin:auto;
+  width:80%;
+  border:dashed 1px red;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo,.menu{
+  border:dashed 1px red;
+}
+.logo{
+  padding: 40px 0 40px 0;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu_item{
+  padding: 0 13px;
+  border:dashed 1px red;
+}
+.menu_item:last-child{
+  padding-right: 0;
+}
+.main-section{
+  display: flex;
+  justify-content: space-between;
+
+  border:dashed 1px red;
+}
+.main-content{
+  margin-top: 246px;
+  border:dashed 1px red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content_description{
+  margin-top: 0;
+  width: 37%;
+
+  border:dashed 1px red;
+}
+.main-content_title{
+    width: 37%;
+    padding: 0 0 20px 0;
+    margin: 0px;
+  border:dashed 1px red;
+}
+.main-content_button{
+
+border:dashed 1px red;
+}
+.image-content {
+  padding-right: 0px;
+  border:dashed 1px red;
+}
+.image-content_image{
+
+  border:dashed 1px red;
+}
