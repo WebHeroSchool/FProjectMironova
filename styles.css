@@ -2,12 +2,14 @@
 .wrapper{
   margin:auto;
   width:81%;
+
 }
 .header{
   padding: 40px 0 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 93px;
+  margin-bottom: 90px;
+
 }
 /*.logo,.menu{
   border:dashed 1px red;
@@ -18,6 +20,7 @@
   padding-left: 44px;
   font:bold 24px/32px pt_serifbold,arial,helvetica,sans-serif;
   width: 146px;
+
   height: 32px;
   /*background: url('img/logo.svg');*/
 }
@@ -41,12 +44,13 @@
 }
 .menu{
   display: flex;
-  align-items: center;
+  align-items:center;
+
 }
 .menu__item{
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
+  margin-right: 25px;
+  font: bold 18px/21px Roboto,arial,helvetica,sans-serif;
   color: #000000;
   text-decoration: none;
   transition: opacity .5s;
@@ -90,28 +94,31 @@
   width: 100%;
 }
 .menu__item:last-child{
-  margin-right: 0;
+  margin-right: 0px;
+  margin-left:6px;
+
 }
+
+
 .main-content{
   background: top right no-repeat url(img/mainimg.svg);
-  padding: 70px 63% 287px 0;
+  padding: 76px 63% 287px 0;
 }
 .main-content__title{
-  margin:0 0 40px 0;
-  font:bold 66px/87px pt_serifbold,arial,helvetica,sans-serif;
+  margin:0 0 35px 0;
+  font:normal 66px/87px pt_serifbold,arial,helvetica,sans-serif;
 }
 .main-content__title-text_highlight{
   background: #ECF3FF
 }
 .main-content__description{
-  margin:0 0 58px 0;
+  margin:0 0 60px 0;
   width:81%;
   font:normal 22px/26px Roboto,arial,helvetica,sans-serif;
 }
 .main-content__button{
   font:500 18px/21px Roboto,arial,helvetica,sans-serif;
-  padding: 18px 27px;
-  width: :48%;
+  padding: 18px 37px 17px 21px;
   background: #0056EC;
   color: #FFFFFF;
   text-decoration: none;
