@@ -2,12 +2,12 @@
 .wrapper{
   margin:auto;
   width:80%;
-  border:dashed 1px red;
 }
 .header{
   padding: 40px 0 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 203px;
 }
 /*.logo,.menu{
   border:dashed 1px red;
@@ -76,7 +76,6 @@
   left:0;
   opacity: 0;
   transition: .5s, width .5s;
-
 }
 .menu__item:hover:after{
   display: block;
@@ -93,38 +92,63 @@
 .menu__item:last-child{
   margin-right: 0;
 }
-.main-section{
-  display: flex;
-  justify-content: space-between;
-
-  border:dashed 1px red;
-}
 .main-content{
-  margin-top: 246px;
-  border:dashed 1px red;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main-content__description{
-  margin-top: 0;
-  width: 37%;
-  border:dashed 1px red;
+  background: top right no-repeat url(img/mainimg.svg);
+  padding: 0 63% 161px 0;
 }
 .main-content__title{
-  font-family: Roboto;
-    width: 37%;
-    padding: 0 0 20px 0;
-    margin: 0px;
-  border:dashed 1px red;
+  margin:0 0 40px 0;
+  font:bold 66px/87px pt_serifregular,arial,helvetica,sans-serif;
+}
+.main-content__title-text_highlight{
+  background: #ECF3FF
+}
+.main-content__description{
+  margin:0 0 41px 0;
+  font:normal 22px/26px Roboto,arial,helvetica,sans-serif;
 }
 .main-content__button{
-border:dashed 1px red;
+  font:500 18px/21px Roboto,arial,helvetica,sans-serif;
+  padding: 16px 14px;
+  background: #0056EC;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity.5s;
 }
-.image-content {
-  padding-right: 0px;
-  border:dashed 1px red;
+.main-content__button:hover{
+  opacity: .5;
 }
-.image-content__image{
-  border:dashed 1px red;
+.footer{
+padding:0 0 38px 0;
+}
+.footer__link_1{
+    border-radius: 50%;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 8px/2 - 12px);
+  background: #C8DBFB;
+  opacity: 0.7;
+
+}
+.footer__link_2{
+  border-radius: 50%;
+  position: absolute;
+width: 8px;
+height: 8px;
+left: calc(50% - 8px/2);
+background: #C8DBFB;
+opacity: 0.7;
+
+}
+.footer__link_3{
+  border-radius: 50%;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: calc(50% - 8px/2 + 12px);
+  background: #C8DBFB;
+  opacity: 0.7;
+
 }
