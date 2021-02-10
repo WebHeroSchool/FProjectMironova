@@ -8,9 +8,6 @@
   justify-content: space-between;
   margin-bottom: 90px;
   }
-/*.logo,.menu{
-  border:dashed 1px red;
-}*/
   .logo{
     position: relative;
     padding: 40px 0 40px 0;
@@ -18,8 +15,6 @@
     font:bold 24px/32px pt_serifbold,arial,helvetica,sans-serif;
     width: 146px;
     height: 32px;
-
-      /*background: url('img/logo.svg');*/
   }
   .logo__circle{
     width: 28px;
@@ -30,7 +25,6 @@
     transform: translateY(-50%);
     border-radius: 50%;
     opacity: 0.7;
-
   }
   .logo__circle_color_blue{
     left:8px;
@@ -44,7 +38,7 @@
     0% {
       box-shadow: 0 0 0 0px rgba(120, 200, 240, 1);
     }
-    100% {
+    100%{
       box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
     }
   }
@@ -134,36 +128,6 @@
   .main-content__button:hover{
     opacity: .5;
   }
-  /*.footer{
-    padding:0 0 38px 0;
-  }
-  .footer__link_1{
-    border-radius: 50%;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    left: calc(50% - 8px/2 - 12px);
-    background: #C8DBFB;
-    opacity: 0.7;
-  }
-  .footer__link_2{
-    border-radius: 50%;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    left: calc(50% - 8px/2);
-    background: #C8DBFB;
-    opacity: 0.7;
-  }
-  .footer__link_3{
-    border-radius: 50%;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    left: calc(50% - 8px/2 + 12px);
-    background: #C8DBFB;
-    opacity: 0.7;
-  }*/
 @media(max-width:1368px){
   .wrapper{
     margin:auto;
@@ -224,7 +188,6 @@
     .wrapper{
       margin:auto;
       width:82%;
-
       }
     .header{
       padding-bottom: 0;
@@ -239,7 +202,6 @@
     .logo__text{
       display: none;
     }
-
     #checkbox{
       opacity: 0;
     }
@@ -294,14 +256,9 @@
       font:bold 30px/35px Roboto,arial,helvetica,sans-serif;
       margin: 0;
   }
-
     .menu__item:hover:after, .menu__item_active:after{
       display: none;
     }
-
-  /* .menu__item:hover{
-    background-color: #CFD8DC;
-  }*/
     #checkbox:checked ~ .menu__button>span{
       transform: rotate(45deg);
     }
@@ -336,6 +293,5 @@
     .main-content__button{
       padding: 14px 25px 13px 16px;
       font:500 14px/16px Roboto,arial,helvetica,sans-serif;
-      animation-duration: 2s;
     }
   }
